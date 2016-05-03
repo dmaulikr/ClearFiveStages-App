@@ -1,2 +1,0 @@
-# ClearFiveStages-App
-ClearFiveStages-App
