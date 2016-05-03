@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<project name="Javascript compress project" basedir="." default="compile">
+ 
+    <taskdef name="jscomp" classname="com.google.javascript.jscomp.ant.CompileTask"
+             classpath="${basedir}/compiler.jar"/>
+    <target name="compile">
+        <jscomp compilationLevel="simple" warning="quiet"
+                debug="false" output="${basedir}/../ClearFiveStages-v1.3.js">
+            <sources dir="${basedir}">
+				<file name="AboutScene.js" />
+				<file name="CFSGamePlayScene.js" />
+				<file name="CFSModePaiGowManager.js" />
+				<file name="CFSModeRuleManager.js" />
+				<file name="GameData.js" />
+				<file name="GameDataManager.js" />
+				<file name="GameLoseLayer.js" />
+				<file name="GameWinLayer.js" />
+				<file name="HighScoreScene.js" />
+				<file name="Helper.js" />
+				<file name="HelpScene.js" />
+				<file name="LevelSelectScene.js" />
+				<file name="MainMenuScene.js" />
+				<file name="MultiLanguageUtil.js" />
+				<file name="OptionLayer.js" />
+				<file name="PaiGowObject.js" />
+				<file name="PauseLayer.js" />
+				<file name="ScoreManager.js" />
+				<file name="ShowPaiGowLayer.js" />
+            	<file name="SocialManager.js" />
+				<file name="SplashScreenScene.js" />
+            </sources>
+        </jscomp>
+     </target>
+ </project>

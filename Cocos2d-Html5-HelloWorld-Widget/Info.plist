@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>com.user.widget.cocoshelloworld</string>
+    <key>CFBundleName</key>
+    <string>CocosHelloWorld</string>
+    <key>CFBundleDisplayName</key>
+    <string>CocosHelloWorld</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1.0</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>MainHTML</key>
+    <string>index.html</string>
+    <key>CloseBoxInsetX</key>
+    <integer>15</integer>
+    <key>CloseBoxInsetY</key>
+    <integer>15</integer>
+    <key>Height</key>
+    <integer>335</integer>
+    <key>Width</key>
+    <integer>495</integer>
+</dict>
+</plist>
